@@ -91,7 +91,6 @@ body, html {
 
 .imagen-contenedor-2 img {
   width: 100%;
-  width: fit-content;       /* o el tamaño que prefieras */
   height: 200px;           /* fuerza altura fija */
   object-fit: cover;
 }
