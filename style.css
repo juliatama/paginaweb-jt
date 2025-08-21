@@ -116,7 +116,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #555; /* color al pasar el mouse */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: portrait) {
   .contenido,
   .contenido-2 {
     flex-direction: column;
