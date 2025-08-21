@@ -85,7 +85,7 @@ body, html {
 .imagen-contenedor-2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: left;
   max-width: 160px;
 }
 
@@ -161,13 +161,12 @@ body::-webkit-scrollbar-thumb:hover {
     flex-direction: row !important;
     justify-content: flex-start !important;
     gap: 9.5rem !important;
-    padding: 2rem !important;
     padding-top: 5rem !important;
   }
 
   .imagen-contenedor-2 {
     flex-direction: column !important;
-    align-items: flex-start !important;
+    align-items: left !important;
     max-width: 160px !important;
   }
 
