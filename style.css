@@ -90,9 +90,9 @@ body, html {
 }
 
 .imagen-contenedor-2 img {
-  width: 100%;
-  height: 200px;           /* fuerza altura fija */
-  object-fit: cover;
+  width: fit-content;      
+  height: 200px;           
+  object-fit: contain;
 }
 
 /* Scrollbar */
