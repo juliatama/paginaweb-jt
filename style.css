@@ -116,7 +116,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 /* --- MÓVIL VERTICAL --- */
-@media (max-width: 720px) and (orientation: portrait) {
+@media (max-width: 700px) and (orientation: portrait) {
   .contenido,
   .contenido-2 {
     flex-direction: column;
@@ -153,49 +153,6 @@ body::-webkit-scrollbar-thumb:hover {
   .sidebar {
     justify-content: flex-start;
     font-size: 12px;
-    padding: 1rem;
-  }
-}
-
-/* --- MÓVIL HORIZONTAL (igual que escritorio) --- */
-@media (max-width: 720px) and (orientation: landscape) {
-  /* Solo ajustamos lo que difiere del diseño base */
-
-  .contenido,
-  .contenido-2 {
-    /* diseño fila igual a escritorio */
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    padding: 2rem;
-    padding-top: 8rem;
-  }
-
-  .imagen-contenedor,
-  .imagen-contenedor-2 {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 10px 8px;
-    max-width: 160px;
-  }
-
-  .imagen-contenedor img,
-  .imagen-contenedor-2 img {
-    max-width: 600px;
-    height: 300px;
-    object-fit: contain;
-  }
-
-  .numero {
-    font-size: 15px;
-    margin-right: 15px;
-    width: 50px;
-    text-align: left;
-    padding-top: 0;
-  }
-
-  .sidebar {
-    font-size: 10px;
     padding: 1rem;
   }
 }
